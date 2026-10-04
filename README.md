@@ -1,6 +1,6 @@
 # Cryptext 🔐
 
-Cryptex(t) is my bachelors project written in 2020 to demonstrate file encryption and decryption using AES (Advanced Encryption Standard) and XOR cipher.
+Cryptext(t) is my bachelor's college project written in 2020 to demonstrate file encryption and decryption using AES (Advanced Encryption Standard) and XOR cipher.
 
 ---
 
