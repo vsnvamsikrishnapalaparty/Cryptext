@@ -6,7 +6,7 @@ Cryptext(t) is my bachelor's college project written in 2020 to demonstrate file
 
 ## About
 
-Cryptext was built as a hands-on exploration of cryptographic algorithms. It supports both terminal and GUI modes, allowing users to create, encrypt, and decrypt text and image files using two different encryption methods.
+Cryptex(t) was built as a hands-on exploration of cryptographic algorithms. It supports both terminal and GUI modes, allowing users to create, encrypt, and decrypt text and image files using two different encryption methods.
 
 ---
 
