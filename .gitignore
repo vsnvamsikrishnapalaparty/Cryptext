@@ -13,3 +13,8 @@ cryptex.db
 # OS
 .DS_Store
 Thumbs.db
+
+# PyInstaller
+dist/
+build/
+*.spec

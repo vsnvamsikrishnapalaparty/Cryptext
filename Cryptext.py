@@ -1,5 +1,6 @@
 from tkinter import *
 import os
+import sys
 
 def CreateFile_Window():
     app1.destroy()
@@ -23,7 +24,12 @@ app1.title("Cryptex(t)")
 
 canvas1 = Canvas(app1)
 canvas1.pack(fill="both", expand=True)
-bg_image = PhotoImage(file=os.getcwd()+"/assets/Image_Background2.png")
+def resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.getcwd(), relative_path)
+
+bg_image = PhotoImage(file=resource_path("assets/Image_Background2.png"))
 canvas1.bg_image = bg_image
 canvas1.create_image(0, 0, image=bg_image, anchor="nw")
 
