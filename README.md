@@ -21,6 +21,22 @@ Cryptext was built as a hands-on exploration of cryptographic algorithms. It sup
 
 ---
 
+## Screenshots
+
+### Main Window
+![Main Window](screenshots/main.png)
+
+### Encryption
+![Encryption Window](screenshots/encrypt.png)
+
+### Decryption
+![Decryption Window](screenshots/decrypt.png)
+
+### Image Encryption & Decryption
+![Image Encryption Window](screenshots/image_enc.png)
+
+---
+
 ## Tech Stack
 
 - Python
